@@ -32,7 +32,9 @@ h1, h2{
 	overflow:hidden;
 	font-size: 16px;
 	letter-spacing: 1px;
-    background: #F6F6F6;
+    /* background: #F6F6F6; */
+    background-color: #11698D;
+    color:white;
     padding: 10px 0 10px 0;
     text-transform: uppercase;
 }
@@ -52,6 +54,7 @@ h1, h2{
     line-height: normal;
 }
 .header-contact-us ul li a {
+	color: white;
    text-decoration: none;
 }
 
@@ -87,6 +90,7 @@ h1, h2{
 	font-size: 40px;
 	font-weight: bolder;
 	color: #339922;
+	text-shadow: 1px 1px 1px rgb(255,255,255);
 	margin-left: 100px;
 }
 
@@ -152,19 +156,20 @@ li a.active{
 	background: #000 !important;
 }
 .carousel-caption h1{
-	font-size: 157px;
-	text-shadow: 5px 2px 10px #01102C;
-	color: #fff;
+
+	color: white;
+	text-shadow: 0 1px 0 rgb(204,204,204) , 0 2px 0 rgb(201,201,201) , 0 3px 0 rgb(187,187,187) , 0 4px 0 rgb(185,185,185) , 0 5px 0 rgb(170,170,170) , 0 6px 1px rgba(0,0,0,0.0980392) , 0 0 5px rgba(0,0,0,0.0980392) , 0 1px 3px rgba(0,0,0,0.298039) , 0 3px 5px rgba(0,0,0,0.2) , 0 5px 10px rgba(0,0,0,0.247059) , 0 10px 10px rgba(0,0,0,0.2) , 0 20px 20px rgba(0,0,0,0.14902) , 0px 0px 6px rgba(255,255,255,0.7) , 5px 2px 10px #066265;
+	font-size: 87px;
 	text-transform: uppercase;
-	margin-bottom: 0;
 }
 .carousel-caption p{
-	font-size: 40px;
-	text-shadow: 3px 2px 5px #002A64;
+	font-size: 30px;
+	text-shadow: 0 1px 0 rgb(204,204,204) , 0 2px 0 rgb(201,201,201) , 0 3px 0 rgb(187,187,187), 0 6px 1px rgba(0,0,0,0.0980392) , 0 0 5px rgba(0,0,0,0.0980392) , 0 1px 3px rgba(0,0,0,0.298039) , 0 3px 5px rgba(0,0,0,0.2) , 0 5px 10px rgba(0,0,0,0.247059) , 0 10px 10px rgba(0,0,0,0.2) , 0 20px 20px rgba(0,0,0,0.14902) , 0px 0px 6px rgba(255,255,255,0.7) , 5px 1px 7px #D4086D;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin-top: 0;
+	margin-top: 0px;
+	margin-bottom: 30px;
 }
 .carousel-caption a{
 	width: 240px;
@@ -223,7 +228,7 @@ li a.active{
   margin-top: 50px;
 }
 
-#about,#service,#team
+#about,#product,#team
 {
 	padding-top: 140px;
 }
@@ -305,6 +310,8 @@ li a.active{
 	font-size: 13px;
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+    text-justify: inter-word;
 	padding: 0 25px;
 	padding-bottom: 30px;
 }
@@ -316,48 +323,52 @@ li a.active{
 }
 
 
-/*service area*/
-.service{
+/*product area*/
+.product{
 	background: url(../img/pattern.jpg);
 	background-repeat: repeat-y;
 	margin-top: 40px;
 }
-.service h2{
+.product h2{
 	font-size: 90px;
 	color: #fff;
 	margin-top: 70px;
 	margin-bottom: 0;
 }
-.service h4{
+.product h4{
 	font-size: 24px;
 	color: #fff;
 	margin-top: 0;
 	margin-bottom: 70px;
 	display: block;
 }
-.single-service{
+.single-product{
 	text-align:center;
 }
-.single-service-img {
+.single-product-img {
   width: 205px;
-  height: 125px;
+  height: 240px;
   padding-left:30px;
   position: relative;
 }
-.service-img {
+.product-img {
   width: 205px;
-  height: 125px;
+  height: 240px;
   background: #3a9ecb;
   position: relative;
+  overflow: hidden;
 }
-.single-service h3{
+.single-product h3{
 	margin-top: 10px;
 	color: #fff;
 	padding-bottom: 50px;
 	position:relative;
 }
-.service-img img{
+
+.product-img img{
 	position: absolute;
+	width: 100%;
+	height: 100%;
 }
 
 
@@ -827,7 +838,7 @@ responsive area
 	  color: #42b3e5;
 	  margin-top: 30px;
 	}
-	.service h2 {
+	.product h2 {
 	  font-size: 50px;
 	  margin-top: 40px;
 	}
